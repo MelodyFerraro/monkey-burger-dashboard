@@ -35,7 +35,7 @@ const DashboardHome = ({ props, ...otherProps }) => {
     fetchDataUsers();
   }, []);
 
-  const ultimoProducto = products.at(-2);
+  const ultimoProducto = products.at(-1);
   const categoryCount = prodPorCateg.length;
 
   return (
